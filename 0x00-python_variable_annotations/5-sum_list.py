@@ -9,5 +9,4 @@ def sum_list(input_list: List[float]) -> float:
   result: float = 0
   for ele in input_list:
     result += ele
-
   return result
