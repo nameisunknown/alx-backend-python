@@ -11,4 +11,3 @@ def sum_list(input_list: List[float]) -> float:
         result += ele
 
     return result
-
