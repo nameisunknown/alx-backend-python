@@ -6,6 +6,7 @@ This module is an async function with default val
 import random
 import asyncio
 
+
 async def wait_random(max_delay: int = 10) -> float:
     """
     async func that waits for a random delay btw 0 
@@ -16,3 +17,4 @@ async def wait_random(max_delay: int = 10) -> float:
     await asyncio.sleep(delay)
 
     return delay
+
